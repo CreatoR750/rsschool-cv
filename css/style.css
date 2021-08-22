@@ -1,0 +1,297 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, sans-serif;
+  font-size: 20px;
+  color: #f5f5f5;
+}
+
+body {
+  
+  background-color: #f5f5f5;
+}
+
+main {
+  display: flex;
+}
+
+.container {
+
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  width: 1024px;
+   
+  background-color: #464e61;
+  box-shadow: 10px 10px 40px 40px rgba(0, 0, 0, 0.23);
+  }
+
+  /*header*/
+
+  header {
+    display:flex;
+   
+    background-color: #464e61;
+    /*box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.23);*/
+  }
+  .name {
+    color:aliceblue;
+    
+    position: relative;
+    flex-grow: 1;
+    align-self: center;
+    text-align: left;
+    animation-duration: 2s;
+    animation-name: animated;
+
+  }
+
+  @keyframes animated {
+    from {
+      opacity:0;
+    }
+    to {
+      opacity:1;
+    }
+  }
+
+.name h1 {
+  
+  font-size:60px;
+}
+.name h2 {
+  font-size: 30px;
+  color:#ecc155;
+}
+.photo{
+  border-radius: 3px;
+  padding-left: 45px;
+  width: 350px;
+  margin-top:20px;
+  margin-bottom: 20px;
+  
+  
+  
+  
+  /*box-shadow: red 0 0 2px;*/
+}
+
+.block {
+  
+  padding-left: 35px;
+  
+  border-top: 3px solid #ecc155;
+  /*box-shadow: rgba(243, 247, 39, 0.4) 0px 5px, rgba(243, 247, 39, 0.3) 0px 10px, rgba(243, 247, 39, 0.2) 0px 15px, rgba(243, 247, 39, 0.1) 0px 20px, rgba(243, 247, 39, 0.05) 0px 25px;*/
+  /*box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.685);*/
+}
+
+
+.btn
+{
+  
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  
+  margin: 15px 35px;
+  padding: 15px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Georgia, sans-serif;;
+  transition: 0.2s ease-in-out;
+  border-radius: 10px;
+  
+  color: #eeeeee;
+  background: #1f2c44;
+  border-bottom: 5px solid #ecc155;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.658);
+  
+}
+
+.btn:hover {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+}
+
+.main{
+  display: flex;
+
+}
+.main_cnt{
+  flex-grow: 1;
+  background-color: #464e61;
+  /* #464e61*/
+  
+}
+
+.main_header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  margin: 5px 0;
+  padding: 10px 0;
+  
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Georgia, sans-serif;;
+  transition: 0.2s ease-in-out;
+ 
+  color: #eeeeee;
+  background: #1f2c44;
+  border-bottom: 3px solid #ecc155;
+  
+}
+
+.main_header h3 {
+  font-size: 30px;
+  font-weight: 300;
+  margin: 0 15px 0 0;
+  padding-left: 20px;
+}
+
+.about_me {
+  margin: 30px;
+}
+.about_me p{
+  margin-top:13px;
+}
+
+.skills_lst {
+  
+  margin: 20px 20px 20px 40px;
+ 
+}
+.skills_lst > li {
+  font-size:25px;
+}
+
+
+.skills_lst span{
+  font-size: 25px;
+  color:#ecc155;
+}
+
+.scale {
+  width: 100%;
+  height: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  background-color: #7981cc3b;
+}
+
+.scale span {
+  display: block;
+  height: 100%;
+}
+
+#python-skill {
+  width: 80%;
+}
+
+#js-skill {
+  width: 50%;
+}
+
+#html-skill {
+  width: 80%;
+}
+
+#css-skill {
+  width: 70%;
+}
+
+#git-skill {
+  width: 60%;
+}
+
+#react-skill {
+  width: 40%;
+}
+
+.scale-filling {
+  background-color:#ecc155;
+  animation: filling 1s ease;
+}
+
+@keyframes filling {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+pre {
+  max-width: 738px;
+  max-height: 350px;
+  border-radius: 3px;
+  overflow: auto;
+
+}
+pre code{
+
+  
+  z-index: 1;
+  vertical-align: baseline;
+  font-family: monospace, monospace;
+  font-size: 0.7em;
+  
+}
+
+aside {
+  
+  background-color:#626775 ;
+  border:3px dotted #ecc155;
+  border-radius: 10px;
+  min-width: 280px;
+  margin-top:-3px;
+}
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color:#1f2c44;
+  border-top: 3px solid #ecc155;
+  margin-top: 5px;
+}
+.year {
+  width: 100px;
+  text-align: center;
+  font-size: 37px;
+  line-height: 37px;
+  font-weight: bold;
+  
+}
+
+.footer-github > a {
+  
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.footer-github > a > i {
+  margin-right: 10px;
+  
+}
+
+.footer-rsschool > a > img {
+  
+  width: 100px;
+  position: relative;
+  top: 3px;
+}
+
+.eng_lvl {
+  width: 250px;
+  border-radius: 10px;
+  align-items: center;
+  margin-left:-15px;
+  margin-top: -10px;
+}
+
+
