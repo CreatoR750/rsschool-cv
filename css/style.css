@@ -65,9 +65,11 @@ main {
   color:#ecc155;
 }
 .photo{
+
+  padding-right: 20px;
   border-radius: 3px;
   padding-left: 45px;
-  width: 350px;
+  width: 300px;
   margin-top:20px;
   margin-bottom: 20px;
   
@@ -154,6 +156,15 @@ main {
 .about_me {
   margin: 30px;
 }
+
+.about_me li{
+  padding-bottom:15px;
+}
+
+.about_me ul{
+  padding-bottom:14px;
+}
+
 .about_me p{
   margin-top:13px;
 }
@@ -164,12 +175,12 @@ main {
  
 }
 .skills_lst > li {
-  font-size:25px;
+  font-size:23px;
 }
 
 
 .skills_lst span{
-  font-size: 25px;
+  font-size: 23px;
   color:#ecc155;
 }
 
@@ -191,7 +202,7 @@ main {
 }
 
 #js-skill {
-  width: 50%;
+  width: 70%;
 }
 
 #html-skill {
@@ -207,7 +218,7 @@ main {
 }
 
 #react-skill {
-  width: 40%;
+  width: 50%;
 }
 
 .scale-filling {
@@ -225,10 +236,11 @@ main {
 }
 
 pre {
-  max-width: 738px;
+  max-width: 730px;
   max-height: 350px;
   border-radius: 3px;
   overflow: auto;
+  
 
 }
 pre code{
@@ -248,6 +260,7 @@ aside {
   border-radius: 10px;
   min-width: 280px;
   margin-top:-3px;
+  
 }
 
 footer{
