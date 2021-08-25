@@ -2,9 +2,10 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: Georgia, sans-serif;
+  font-family: 'Besley', serif;
   font-size: 20px;
   color: #f5f5f5;
+  
 }
 
 body {
@@ -31,8 +32,8 @@ main {
 
   header {
     display:flex;
+    
    
-    background-color: #464e61;
     /*box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.23);*/
   }
   .name {
@@ -82,8 +83,9 @@ main {
 .block {
   
   padding-left: 35px;
-  
   border-top: 3px solid #ecc155;
+  
+  
   /*box-shadow: rgba(243, 247, 39, 0.4) 0px 5px, rgba(243, 247, 39, 0.3) 0px 10px, rgba(243, 247, 39, 0.2) 0px 15px, rgba(243, 247, 39, 0.1) 0px 20px, rgba(243, 247, 39, 0.05) 0px 25px;*/
   /*box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.685);*/
 }
@@ -133,7 +135,7 @@ main {
   justify-content: flex-start;
   align-items: baseline;
   margin: 5px 0;
-  padding: 10px 0;
+  padding: 8px 0;
   
   font-size: 20px;
   font-weight: bold;
@@ -158,11 +160,12 @@ main {
 }
 
 .about_me li{
-  padding-bottom:15px;
+  padding-bottom:13px;
 }
 
 .about_me ul{
-  padding-bottom:14px;
+  margin-bottom: -17px;
+  padding-bottom:0px;
 }
 
 .about_me p{
@@ -240,6 +243,7 @@ pre {
   max-height: 350px;
   border-radius: 3px;
   overflow: auto;
+ 
   
 }
 
