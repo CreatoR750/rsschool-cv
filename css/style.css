@@ -5,6 +5,7 @@
   font-family: 'Besley', serif;
   font-size: 20px;
   color: #f5f5f5;
+  scroll-behavior: smooth;
   
 }
 
@@ -164,7 +165,7 @@ main {
 }
 
 .about_me ul{
-  margin-bottom: -17px;
+  margin-bottom: -5px;
   padding-bottom:0px;
 }
 
